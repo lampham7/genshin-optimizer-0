@@ -1,7 +1,7 @@
 {
   "homepage": "https://lampham7.github.io/genshin-optimizer/",
   "name": "genshin-optimizer",
-  "version": "8.20.4",
+  "version": "8.22.3",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -51,7 +51,7 @@
     "localization-load": "cd ./localization && npx ts-node ./load.ts",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r <repo_url>",
+    "deploy": "gh-pages -d build",
     "check-types": "tsc --noEmit",
     "audit": "npm audit --production"
   },
